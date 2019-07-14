@@ -1,9 +1,6 @@
 #!bin/bash
-#Successful update
-#MESSAGE: Never stop learning, if you are here is out of curiosity and try to learn shell or bash with the help of google search among others and so you will have more ease of course take time but you will learn even if editing
-clear 
-while :
-do
+#Atualização bem sucedida
+#MENSAGEM: Nunca pare de aprender, se você está aqui é por curiosidade e tentar aprender shell ou bash com a ajuda da pesquisa do google entre outros e assim você terá mais facilidade, claro, ter tempo, mas você consegue. 
 #menu banner
 clear
 echo -e "\e[1;33m(98/8)\e[1;32m" 
@@ -14,17 +11,18 @@ echo " / __  / /_/ (__  ) /_   / /____>  </ /_/ /  / /_/ / /__/ /_/ /_/ / /     
 echo "/_/ /_/\____/____/\__/  /_____/_/|_|\__/_/   \__,_/\___/\__/\____/_/      "
 echo -e "\e[1;33mV= 2.0                    (99) Português (BR)                    (98) English     " 
 echo "" 
-echo -e "\e[1;31m[1]\e[1;32m HOST & SSL EXTRACTOR"
-echo -e "\e[1;31m[2]\e[1;32m SHOW WEB STATUS"
-echo -e "\e[1;31m[3]\e[1;32m SAVE HOSTS EXTRACTED"
-echo -e "\e[1;31m[4]\e[1;32m CREATE PAYLOAD FUNCTIONAL"
-echo -e "\e[1;31m[5]\e[1;32m SEE WEB AND HOST PORTS"
-echo -e "\e[1;31m[6]\e[1;32m SEE PROXY HOST & WEB"
-echo -e "\e[1;31m[7]\e[1;32m USE MANUAL HOST E."
-echo -e "\e[1;31m[0]\e[1;32m EXIT MENU"
+echo -e "\e[1;31m[1]\e[1;32m PESQUISAR HOST & SSL"
+echo -e "\e[1;31m[2]\e[1;32m TESTAR HOST"
+echo -e "\e[1;31m[3]\e[1;32m SALVAR HOSTS PESQUISADOS"
+echo -e "\e[1;31m[4]\e[1;32m CRIAR PAYLOAD FUNCIONAL"
+echo -e "\e[1;31m[5]\e[1;32m TESTAR HOST + PORTA"
+echo -e "\e[1;31m[6]\e[1;32m VER PROXY HOST & WEB"
+echo -e "\e[1;31m[7]\e[1;32m MANUAL SOBRE HOST E."
+echo -e "\e[1;31m[0]\e[1;32m SAIR DO MENU"
+echo -e "\e[1;31m[9]\e[1;32m DESLIGAR TERMINAL"
 echo ""
 echo -e "\e[1;36m"
-echo -n "Choose option: "
+echo -n "Escolher opção: "
 read opcion
 #lista de menu
 echo -e "\e[0m"
@@ -105,6 +103,10 @@ bash .host.sh
 #Fin del menu/in the end
 0)clear
 exit 0;;
+#Fechar terminal
+9)clear
+logout
+;;
 #error
 *)clear
 echo "Invalid command...";
