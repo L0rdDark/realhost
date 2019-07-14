@@ -11,10 +11,10 @@ pkg install curl
 
 pkg install git
 
-git clone https://github.com/HackeRStrategy/Irparpaya-a.git
+git clone https://github.com/L0rdDark/realhost.git
 
-cd Irparpaya-a
+cd L0rdDark
 
-chmod +x real-host-v2.sh
+chmod +x realhost.sh
 
-bash real-host-v2.sh
+bash realhost.sh
