@@ -93,13 +93,11 @@ read foo;
 ;;
 98)clear
 echo "Traduzindo para o idioma Inglês...";
-sleep 3
-bash .host.sh
+sleep 4
 ;;
 99)clear
 echo "Traduzindo para o idioma português...";
-sleep 3
-bash host.sh
+sleep 4
 ;;
 #Fim do menu / no final
 0)clear
