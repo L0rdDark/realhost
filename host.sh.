@@ -94,11 +94,13 @@ read foo;
 ;;
 98)clear
 echo "translating to english language...";
-sleep 4
+sleep 3
+bash host.sh
 ;;
 99)clear
 echo "Translating to portuguese language...";
-sleep  4
+sleep  3
+bash .host.sh
 ;;
 #Fin del menu/in the end
 0)clear
