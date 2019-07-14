@@ -1,55 +1,22 @@
-...............................
-#Nombre del script: Irparpayaña
-...............................
-#Significado: Acompañar a uno hasta ponerlo en camino 
-#Lengua: Aymara - Perú
-..............................
-#Domingo 09/12/2018
-#Martes 15/01/2019
-#by: real strategy / rwam
-..............................
+------------------------------
+#Atualizado: 12/07/2019
+------------------------------
+OPÇÕES:
 
-OPCIONES:
-
-[1] Extrae url de sitios web como http y https
-[2] Muestra estatus de sitios web
-[3] Un bloc para agregar sitios web 
-[4] Genera payload funcionales de sitios web / host
-[5] Muestra los puertos que esta abiertos en servicios web / IP/ proxy
- - Poner una coma después de cada puerto, ejemplo: 22,53,443,80,8080 
-[6] Ver proxy o informacion de un sitio web o IP
-[7] Manual de como usar el script host-extractor-v2.sh
-[8] Un mensaje de parte de mio hacia el público 
-[0] Salir del menu 0 y 0 salir del menu en español
-[98] Cambiar el idioma al inglés
-[99] Cambiar el idioma al español
+[1] Extrai o URL de sites como http e https
+[2] Mostra o status do site
+[3] Um bloco para adicionar sites 
+[4] Gerar payload funcional de sites / host
+[5] Mostrar as portas que estão abertas nos serviços da Web / IP / proxy
+ - Coloque uma vírgula após cada porta, exemplo: 22,53,443,80,8080 
+[6] Ver proxy ou informações em um site ou IP
+[7] Manual como usar o script host-extractor-v2.sh
+[8] Uma mensagem minha para o público 
+[0] Sair do menu 0 e 0 sair do menu em espanhol
+[98] Altere o idioma para o inglês
+[99] Alterar o idioma para espanhol
 
 [xx.xx] Menu secreto :)
 
 
-
-DATOS:
-
-CANAL TELEGRAM:
-
-https://t.me/RealHackRWAM
-
-GRUPO TELEGRAM:
-
-https://t.me/RealStrategyRS
-
-CANAL YOUTUBE:
-
-https://youtube.com/RealHackRWAM
-
-GRUPO FACEBOOK:
-
-https://m.facebook.com/groups/142565756559228
-
-CANAL FACEBOOK
-
-https://m.facebook.com/RealHackRWAM
-
-
-
-PRESIONA UNA ENTER PARA CONTINUAR...
+PRESSIONAR ENTER PARA CONTINUAR ...
