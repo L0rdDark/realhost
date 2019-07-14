@@ -9,7 +9,7 @@ echo "   / / / /___  _____/ /_   / ____/  __/ /__________  _____/ /_____  _____ 
 echo "  / /_/ / __ \/ ___/ __/  / __/ | |/_/ __/ ___/ __ \/ ___/ __/ __ \/ ___/ "
 echo " / __  / /_/ (__  ) /_   / /____>  </ /_/ /  / /_/ / /__/ /_/ /_/ / /     "
 echo "/_/ /_/\____/____/\__/  /_____/_/|_|\__/_/   \__,_/\___/\__/\____/_/      "
-echo -e "\e[1;33mV= 2.0                    (99) Português (BR)                    (98) English     " 
+echo -e "\e[1;33mV= 2.0" 
 echo "" 
 echo -e "\e[1;31m[1]\e[1;32m PESQUISAR HOST & SSL"
 echo -e "\e[1;31m[2]\e[1;32m TESTAR HOST"
@@ -74,7 +74,7 @@ read foo
 7)clear
 echo -e "\e[1;32mRead everything for the proper use of the tool...";
 sleep 2.5
-cat manualEN.txt
+cat manualPT.txt
 read foo
 ;;
 12.25)clear
