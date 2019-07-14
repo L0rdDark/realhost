@@ -10,8 +10,8 @@ pkg install git
 
 git clone https://github.com/L0rdDark/realhost.git
 
-cd L0rdDark
+cd realhost
 
-chmod +x realhost.sh
+chmod +x host.sh
 
-bash realhost.sh
+bash host.sh
