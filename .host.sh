@@ -1,7 +1,4 @@
 #!bin/bash
-#Created: 13/11/2018
-#Upgrade 12/01/2019
-#by: real strategy
 #Successful update
 #MESSAGE: Never stop learning, if you are here is out of curiosity and try to learn shell or bash with the help of google search among others and so you will have more ease of course take time but you will learn even if editing
 clear 
@@ -97,13 +94,11 @@ read foo;
 ;;
 98)clear
 echo "translating to english language...";
-sleep 3
-bash .host.sh
+sleep 4
 ;;
 99)clear
 echo "Translating to portuguese language...";
-sleep  3
-bash host.sh
+sleep  4
 ;;
 #Fin del menu/in the end
 0)clear
