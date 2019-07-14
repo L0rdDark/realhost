@@ -1,6 +1,3 @@
-...............................
-#Instalar pacotes para o bom começo do script
-
 apt update && apt upgrade -y
 
 pkg install nmap
