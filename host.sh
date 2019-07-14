@@ -104,8 +104,7 @@ bash .host.sh
 0)clear
 exit 0;;
 #Fechar terminal
-0.1)clear
-exit
+0.1)exit
 ;;
 #error
 *)clear
