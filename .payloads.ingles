@@ -29,6 +29,9 @@ echo ""
 echo -e "\e[1;32m"
 echo "CONNECT free.facebook.com;$host;internet.org;c.whatsapp.net@[host_port] [protocol][crlf][delay_split]GET http://free.facebook.com;$host;internet.org;c.whatsapp.net/ HTTP/1.1[crlf]Host: free.facebook.com;$host;internet.org;c.whatsapp.net[crlf]X-Online-Host: free.facebook.com;$host;internet.org;c.whatsapp.net[crlf]X-Forward-Host: free.facebook.com;$host;internet.org;c.whatsapp.net[crlf]X-Forwarded-For: free.facebook.com;$host;internet.org;c.whatsapp.net[crlf]Connection: Keep-Alive[crlf][crlf]"
 echo ""
+echo "GET http://$host/ HTTP/1.1[crlf]
+referer: $host[crlf] [crlf]"
+echo ""
 echo "GET http://$host/ HTTP/1.1[crlf]Host: $host[crlf]User-Agent: Yes[crlf]Accept-Encoding: gzip,deflate[crlf]Accept-Charset: ISO-8859-1,utf-8;q=0.7,;q=0.7[crlf]Connection: Basic[crlf]Referer: $host[crlf]Cookie: $host [crlf]Proxy-Connection: Keep-Alive[crlf][crlf][netData][crlf][crlf][crlf]"
 echo ""
 echo GET http://$host/ HTTP/1.1[crlf]Host: $host[crlf]X-Online-Host: $host[crlf]X-Forward-Host: $host[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf][delay_split]CONNECT [host_port] [protocol][crlf][crlf]
