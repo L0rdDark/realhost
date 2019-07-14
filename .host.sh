@@ -24,8 +24,7 @@ echo -e "\e[1;31m[4]\e[1;32m CREATE PAYLOAD FUNCTIONAL"
 echo -e "\e[1;31m[5]\e[1;32m SEE WEB AND HOST PORTS"
 echo -e "\e[1;31m[6]\e[1;32m SEE PROXY HOST & WEB"
 echo -e "\e[1;31m[7]\e[1;32m USE MANUAL HOST E."
-echo -e "\e[1;31m[8]\e[1;32m MESSAGE FROM THE CREATOR"
-echo -e "\e[1;31m[0]\e[1;32m EXIT MENU H.E"
+echo -e "\e[1;31m[0]\e[1;32m EXIT MENU"
 echo ""
 echo -e "\e[1;36m"
 echo -n "Choose option: "
@@ -90,16 +89,6 @@ bash ._
 read foo
 ;;
 8)echo ""
-echo -e "\e[1;33mCREDITS TO THE DEVELOPER\e[0m"
-echo ""
-echo -e "\e[1;31mCoder: @RealStrategy y el grupo vip RS"
-echo -e "\e[1;32m"
-echo "YOUTUBE : https://youtube.com/RealHackRWAM "
-echo "TELEGRAM: https://t.me/RealHackRWAM "
-echo "TELEGRAM: https://t.me/RealStrategyRS "
-echo "FACEBOOK: https://m.facebook.com/groups/142565756559228 "
-echo "FACEBOOK: https://m.facebook.com/RealHackRWAM "
-echo ""
 echo -e "\e[1;31mMESSAJE FROM RS\e[0m"
 echo ""
 echo -e "\e[1;36mNever stop learning... :)\e[0m"
@@ -109,12 +98,12 @@ read foo;
 98)clear
 echo "translating to english language...";
 sleep 3
-bash real-host-v2.sh
+bash .host.sh
 ;;
 99)clear
-echo "Translating to spanish language...";
+echo "Translating to portuguese language...";
 sleep  3
-bash .real-host.sh
+bash host.sh
 ;;
 #Fin del menu/in the end
 0)clear
