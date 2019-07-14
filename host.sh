@@ -19,7 +19,7 @@ echo -e "\e[1;31m[5]\e[1;32m TESTAR HOST + PORTA"
 echo -e "\e[1;31m[6]\e[1;32m VER PROXY HOST & WEB"
 echo -e "\e[1;31m[7]\e[1;32m MANUAL SOBRE HOST E."
 echo -e "\e[1;31m[0]\e[1;32m SAIR DO MENU"
-echo -e "\e[1;31m[9]\e[1;32m DESLIGAR TERMINAL"
+echo -e "\e[1;31m[0.1]\e[1;32m DESLIGAR TERMINAL"
 echo ""
 echo -e "\e[1;36m"
 echo -n "Escolher opção: "
@@ -104,8 +104,8 @@ bash .host.sh
 0)clear
 exit 0;;
 #Fechar terminal
-9)clear
-logout
+0.1)clear
+exit
 ;;
 #error
 *)clear
